@@ -1,0 +1,78 @@
+body{
+    height: 100vh;
+    width: 100%;
+}
+
+.logo{
+    text-decoration: none;
+}
+
+.blue{
+    color: #4a96ed;
+}
+
+.red{
+    color: #f51616;
+}
+
+.yellow{
+    color: #f2ba35;
+}
+
+.green{
+    color: #219432
+}
+
+.logo{
+    font-size: 100px;
+    text-align: center;
+}
+
+.top_links{
+    text-align: right;
+}
+
+.top_links a{
+    text-decoration: none;
+    color: #000;
+    margin: 0 10px;
+}
+
+.top_links a:hover{
+    text-decoration: underline;
+}
+
+.buttons{
+    display: flex;
+    justify-content: center;
+}
+
+.buttons input{
+    border: 0;
+    background-color: #eee;
+    border-radius: 5px;
+    padding: 5px 15px;
+}
+
+.buttons input:hover{
+    background-color: #ddd;
+}
+
+.search_box{
+    width: 500px;
+    border-radius: 20px;
+    padding: 10px;
+    border: #bbb 1px solid;
+    margin: 0 auto;
+
+}
+
+.search_form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+form input{
+    margin: 10px;
+}

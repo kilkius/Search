@@ -1,29 +1,33 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
-        <title>Search</title>
+        <title>Advanced Search</title>
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
         <link rel="stylesheet" href="style.css">
     </head>
     <body>
         <!-- nav -->
         <div class="top_links">
-            <a href="image.html">Images</a>
-            <a href="advance.html">Advanced search</a>
+            <a href="index.html">Back to Google search</a>
         </div>
         <div class="main_box">
             <!-- Logo -->
             <div class="logo">
                 <a class="logo" href="index.html"><span class="blue">G</span><span class="red">o</span><span class="yellow">o</span><span class="blue">g</span><span class="green">l</span><span class="red">e</span></a>
+                <a href="index.html" class="blue sub">Advanced Search</a>
             </div>
+            
             <!--add a search form-->
-            <form class="search_form" action="https://www.google.com/search">
-                <input class="search_box" type="text" name="q">
+            <form class="search_form" action="https://www.google.com/search?">
+                <label>All these words </label>
+                <input class="search_box_ad" type="text" name="q">
+                <label>This exact word or phrase</label>
+                <input class="search_box_ad" type="text" name="q">
+                <input class="search_box_ad" type="text" name="q">
+                <input class="search_box_ad" type="text" name="q">
+                <input type="hidden" name="tbm" value="isch">
                 <br>
-                <div class="buttons">
-                    <input type="submit" name="btn" value="Google Search">
-                    <input type="submit" name="btnI" value="Im feeling lucky">
-                </div>
+                <input class="btn btn-primary" type="submit" value="Image search">
             </form>
         </div>
     </body>

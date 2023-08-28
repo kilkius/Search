@@ -3,10 +3,6 @@ body{
     width: 100%;
 }
 
-.logo{
-    text-decoration: none;
-}
-
 .blue{
     color: #4a96ed;
 }
@@ -26,6 +22,13 @@ body{
 .logo{
     font-size: 100px;
     text-align: center;
+    text-decoration: none;
+}
+
+.sub{
+    font-size: 20px;
+    text-align: end;
+    text-decoration: none;
 }
 
 .top_links{
@@ -65,6 +68,10 @@ body{
     border: #bbb 1px solid;
     margin: 0 auto;
 
+}
+
+.search_box_ad{
+    width: 300px;
 }
 
 .search_form{

@@ -5,7 +5,6 @@ body{
 }
 
 /* logo */
-
 .blue{
     color: #4a96ed;
 }
@@ -42,7 +41,6 @@ body{
 }
 
 /* nav */
-
 .top_links{
     text-align: right;
 }
@@ -50,7 +48,7 @@ body{
 .top_links a{
     text-decoration: none;
     color: #000;
-    margin: 5px 5px;
+    margin: 5px 10px;
 }
 
 .top_links a:hover{
@@ -58,7 +56,6 @@ body{
 }
 
 /* buttons */
-
 .buttons{
     display: flex;
     justify-content: center;
@@ -76,7 +73,6 @@ body{
 }
 
 /* forms */
-
 .search_box{
     width: 500px;
     border-radius: 20px;

@@ -1,7 +1,10 @@
 body{
     height: 100vh;
     width: 100%;
+    overflow: hidden;
 }
+
+/* logo */
 
 .blue{
     color: #4a96ed;
@@ -22,14 +25,23 @@ body{
 .logo{
     font-size: 100px;
     text-align: center;
+}
+
+.logo a, .logo_sm a{
     text-decoration: none;
+}
+
+.logo_sm{
+    font-size: 30px;
+    margin: 20px;
 }
 
 .sub{
     font-size: 20px;
-    text-align: end;
     text-decoration: none;
 }
+
+/* nav */
 
 .top_links{
     text-align: right;
@@ -38,12 +50,14 @@ body{
 .top_links a{
     text-decoration: none;
     color: #000;
-    margin: 0 10px;
+    margin: 5px 5px;
 }
 
 .top_links a:hover{
     text-decoration: underline;
 }
+
+/* buttons */
 
 .buttons{
     display: flex;
@@ -60,6 +74,8 @@ body{
 .buttons input:hover{
     background-color: #ddd;
 }
+
+/* forms */
 
 .search_box{
     width: 500px;
@@ -80,6 +96,51 @@ body{
     justify-content: center;
 }
 
+.adv_form div{
+    width: auto;
+    display: flex;
+    justify-content:flex-start;
+    align-items: center;
+    margin-left: 50px;
+}
+
+.adv_form .adv_btn{
+    position: relative;
+    left: 360px;
+}
+
+.adv_form label{
+    width: 200px;
+}
+
 form input{
     margin: 10px;
+}
+
+@media (max-width: 600px){
+
+    .logo{
+        margin-top: 100px;
+        font-size: 60px;
+    }
+
+    .search_box{
+        width: 350px;
+    }
+
+    .adv_form div{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin-left: auto;
+    }
+
+    .adv_form .adv_btn{
+        position: relative;
+        left: auto;
+    }
+
+    .adv_form label{
+        width: auto;
+    }
 }
